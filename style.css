@@ -34,16 +34,16 @@ body {
 }
 
 #flip div:first-child{
-animation: show 3s linear infinite;
+animation: show 6s linear infinite;
+}
+
+#flip div div{
+    background: #e01010
+
 }
 
 #flip div:last-child div{
     background: #6600ff
-
-}
-
-#flip div:first-child div{
-    background: #e01010
 
 }
 
