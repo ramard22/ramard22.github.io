@@ -37,12 +37,14 @@ body {
 animation: show 3s linear infinite;
 }
 
-#flip div:first-child div{
-    background: #e01010
-}
-
 #flip div:last-child div{
     background: #6600ff
+
+}
+
+#flip div:first-child div{
+    background: #e01010
+
 }
 
 @keyframes show{
