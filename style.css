@@ -57,12 +57,16 @@ animation: show 6s linear infinite;
     99.9% {margin-top: 0px}
     100% {margin-top: -270px}
 
-@media screen and (min-width: 700px) {
-  #flip > div > div {
-    color: #fff;
-    padding: 4px 12px;
-    height: 10px;
-    margin-bottom: 45px;
-    display: inline-block;
-}
+@media screen and (min-width: 600px) {
+ #container {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 200px;
+    position: fixed;
+    width: 100%;
+    bottom: 45%;
+    display: block;
+    }
 }
