@@ -57,3 +57,12 @@ animation: show 6s linear infinite;
     99.9% {margin-top: 0px}
     100% {margin-top: -270px}
 
+@media screen and (min-width: 480px) {
+  #flip > div > div {
+    color: #fff;
+    padding: 4px 12px;
+    height: 90px;
+    margin-bottom: 45px;
+    display: inline-block;
+}
+}
