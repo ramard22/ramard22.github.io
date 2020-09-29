@@ -61,7 +61,7 @@ animation: show 6s linear infinite;
   #flip > div > div {
     color: #fff;
     padding: 4px 12px;
-    height: 90px;
+    height: 10px;
     margin-bottom: 45px;
     display: inline-block;
 }
